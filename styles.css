@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+content {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+    padding: 2%;
+    background: rgb(242, 242, 246);
+}
+
+footer {
+    display: inline;
+    text-align: center;
+
+}
+
+footer h1 {
+    background: rgb(242, 242, 246);
+    font-size: 50px;
+}
+
+.days,
+.weeks,
+.months {
+    margin: 1%;
+    background: rgb(206, 206, 207);
+    width: 20%;
+    text-align: center;
+    padding: 1%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px black;
+    font-weight: bold;
+}
+
+
+
+.months label,
+.weeks label,
+.days label {
+    display: block;
+    margin: 5%;
+    
+}
+
+.months input, 
+.weeks input,
+.days input {
+    border-width: 0;
+    border-radius: 3px;
+
+}
+
+.months button, 
+.weeks button,
+.days button {
+    border-width: 0;
+    border-radius: 3px;
+    padding: 4%;
+    box-shadow: 2px 2px 2px black;
+    font-weight: bold;
+}

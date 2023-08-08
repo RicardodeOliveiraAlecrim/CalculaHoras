@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HorasTrabalhadas</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+
+        <footer>
+            <h1>Calculadora de Jornada</h1>
+        </footer>
+
+        <content>
+            <article class="days">
+
+                <h1>Horas Diárias</h1>
+
+                <aside>
+
+                    <label>Entrada:
+                        <input type="time" class="in">
+                    </label>
+
+                    <label>Intervalo:
+                        <input type="time" class="break">
+                    </label>
+
+                    <label>Saida:
+                        <input type="time" class="out">
+                    </label>
+
+                    <button type="button" onclick="sumDay()">Calcular</button>
+
+                </aside>
+
+                <p class="result"></p>
+
+
+
+            </article>
+
+            <article class="weeks">
+
+                <h1>Horas Semanais</h1>
+
+                <aside>
+
+                    <label>Segunda:
+                        <input type="time">
+                    </label>
+
+                    <label>Terça:
+                        <input type="time">
+                    </label>
+
+                    <label>Quarta:
+                        <input type="time">
+                    </label>
+
+                    <label>Quinta:
+                        <input type="time">
+                    </label>
+
+                    <label>Sexta:
+                        <input type="time">
+                    </label>
+
+                    <label>Sábado:
+                        <input type="time">
+                    </label>
+
+                    <label>Domingo:
+                        <input type="time">
+                    </label>
+
+                    <button type="button" class="calculatedWeek">Calcular</button>
+
+
+                </aside>
+
+                <p></p>
+
+            </article>
+
+
+
+
+            <article class="months">
+
+                <h1>Horas Mensais</h1>
+
+                <aside>
+
+                    <label>1°Semana:
+                        <input type="time">
+                    </label>
+
+                    <label>2°Semana:
+                        <input type="time">
+                    </label>
+
+                    <label>3°Semana:
+                        <input type="time">
+                    </label>
+
+                    <label>4°Semana:
+                        <input type="time">
+                    </label>
+
+                    <label>5°Semana:
+                        <input type="time">
+                    </label>
+
+                    <label>6°Semana:
+                        <input type="time">
+                    </label>
+
+                    <button type="button" class="calculatedMonth">Calcular</button>
+
+
+                </aside>
+
+                <p></p>
+
+            </article>
+        </content>
+    </main>
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>

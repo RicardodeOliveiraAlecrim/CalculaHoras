@@ -39,6 +39,8 @@
 
                     <button type="button" onclick="sumDay()">Calcular</button>
 
+                    <button type="button" onclick="clearDay()">Limpar</button>
+
                 </aside>
 
                 <p class="result"></p>
@@ -54,39 +56,41 @@
                 <aside>
 
                     <label>Segunda:
-                        <input type="time">
+                        <input type="time" class="monday">
                     </label>
 
                     <label>Terça:
-                        <input type="time">
+                        <input type="time" class="tuesday">
                     </label>
 
                     <label>Quarta:
-                        <input type="time">
+                        <input type="time" class="wednesday">
                     </label>
 
                     <label>Quinta:
-                        <input type="time">
+                        <input type="time" class="thusday">
                     </label>
 
                     <label>Sexta:
-                        <input type="time">
+                        <input type="time" class="friday">
                     </label>
 
                     <label>Sábado:
-                        <input type="time">
+                        <input type="time" class="saturday">
                     </label>
 
                     <label>Domingo:
-                        <input type="time">
+                        <input type="time" class="sunday">
                     </label>
 
-                    <button type="button" class="calculatedWeek">Calcular</button>
+                    <button type="button" onclick="sumWeek()">Calcular</button>
+
+                    <button type="button" onclick="clearWeek()">Limpar</button>
 
 
                 </aside>
 
-                <p></p>
+                <p class="resultWeek"></p>
 
             </article>
 
@@ -100,35 +104,37 @@
                 <aside>
 
                     <label>1°Semana:
-                        <input type="time">
+                        <input type="time" class="one">
                     </label>
 
                     <label>2°Semana:
-                        <input type="time">
+                        <input type="time" class="two">
                     </label>
 
                     <label>3°Semana:
-                        <input type="time">
+                        <input type="time" class="three">
                     </label>
 
                     <label>4°Semana:
-                        <input type="time">
+                        <input type="time" class="four">
                     </label>
 
                     <label>5°Semana:
-                        <input type="time">
+                        <input type="time" class="five">
                     </label>
 
                     <label>6°Semana:
-                        <input type="time">
+                        <input type="time" class="six">
                     </label>
 
-                    <button type="button" class="calculatedMonth">Calcular</button>
+                    <button type="button" onclick="sumMonth()" class="calculatedMonth">Calcular</button>
+
+                    <button type="button" onclick="clearMonth()">Limpar</button>
 
 
                 </aside>
 
-                <p></p>
+                <p class="resultMonth"></p>
 
             </article>
         </content>

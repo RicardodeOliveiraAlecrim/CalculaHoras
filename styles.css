@@ -37,7 +37,7 @@ footer h1 {
     border-radius: 15px;
     box-shadow: 5px 5px 5px #111D13;
     font-weight: bold;
-    height: auto;
+    height: 100%;
     color: #111D13;
 }
 
@@ -48,7 +48,7 @@ footer h1 {
 .days label {
     display: block;
     margin: 5%;
-  font-size: 08vw;
+  font-size: 10px;
 
 }
 
@@ -131,10 +131,22 @@ button:active{
 
 @media screen and (max-width: 1000px) and (orientation: landscape) {
 
+
+  main {
+    height: auto;
+  }
+  
     content {
         display: flex;
-
+       height: auto;
     }
+
+  footer {
+    height: auto;
+  }
+ footer h1 {
+    font-size: 8vw;
+  }
 
     .days,
     .weeks,
@@ -143,8 +155,9 @@ button:active{
         width: 32%;
         margin: 0 auto;
         font-size: 17px;
-        height: auto;
+        height: ;
         padding: 00;
+      font-size: 3vw;
     }
 
     .months button,
@@ -164,6 +177,7 @@ button:active{
     .weeks label,
     .days label {
         margin: 3%;
+      font-size: 2vw;
     }
    
 

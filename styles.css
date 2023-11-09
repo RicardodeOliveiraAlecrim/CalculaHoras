@@ -48,6 +48,7 @@ footer h1 {
 .days label {
     display: block;
     margin: 5%;
+  font-size: 08vw;
 
 }
 
@@ -90,6 +91,11 @@ button:active{
 
 @media screen and (max-width: 1000px) and (orientation: portrait) {
 
+
+  footer h1 {
+      font-size: 8vw;
+      
+  }
     content {
         display: block;
         height: auto;
@@ -104,7 +110,7 @@ button:active{
         width: 90%;
         margin: 1% auto;
         font-size: 25px;
-        height: 500px;
+        height: auto;
         padding: 1px;
     }
 
